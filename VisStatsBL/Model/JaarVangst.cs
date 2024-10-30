@@ -23,9 +23,5 @@ namespace VisStatsBL.Model
             Gemiddelde = gemiddelde;
         }
 
-        //public override string ToString()
-        //{ 
-        //    return Soortnaam; 
-        //}
     }
 }

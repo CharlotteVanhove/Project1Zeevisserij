@@ -22,7 +22,7 @@ namespace VisStatsDL_File
                 using (StreamReader sr = new StreamReader(fileName))
                 {
                     string line;
-                    while ((line = sr.ReadLine()) != null) //zolang het bestand niet lees is wordt deze ingelezen
+                    while ((line = sr.ReadLine()) != null) //zolang het bestand niet leeg is wordt deze ingelezen
                     {
                         soorten.Add(line.Trim());
                     }
