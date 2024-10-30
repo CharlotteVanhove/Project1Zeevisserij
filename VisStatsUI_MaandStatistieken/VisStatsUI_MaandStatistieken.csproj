@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VisStatsBL\VisStatsBL.csproj" />
+    <ProjectReference Include="..\VisStatsDL_File\VisStatsDL_File.csproj" />
+    <ProjectReference Include="..\VisStatsDL_SQL\VisStatsDL_SQL.csproj" />
+  </ItemGroup>
+
+</Project>
